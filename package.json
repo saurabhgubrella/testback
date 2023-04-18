@@ -1,0 +1,29 @@
+{
+  "name": "testback",
+  "version": "1.0.0",
+  "description": "my test project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "saurabh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express-jwt": "^6.0.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.15.0",
+    "formidable": "^2.1.1",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
+}
